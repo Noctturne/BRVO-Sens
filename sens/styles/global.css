@@ -1,0 +1,14 @@
+
+.bg-header{
+  background-image: url('../public/images/bg/header-hero-mobile.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (min-width: 768px) { 
+  .bg-header{
+    background-image: url('../public/images/bg/header-hero.png');
+  }
+ }

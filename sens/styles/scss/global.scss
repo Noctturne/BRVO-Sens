@@ -9,5 +9,5 @@ $theme-colors: (
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 $font-family-sans-serif: 'Poppins', Helvetica, Arial, sans-serif !default;
 $headings-font-family: $font-family-sans-serif;
-
+$headings-font-weight: 700;
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
