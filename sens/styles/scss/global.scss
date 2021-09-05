@@ -1,0 +1,13 @@
+$theme-colors: (
+  'primary': #3CDBC0,
+  'secondary': #252525,
+  'danger': #DB3C57,
+  'light': #FFF,
+  'dark': #000,
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+$font-family-sans-serif: 'Poppins', Helvetica, Arial, sans-serif !default;
+$headings-font-family: $font-family-sans-serif;
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
