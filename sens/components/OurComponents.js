@@ -23,6 +23,7 @@ export default function OurComponents(){
                                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active" data-bs-interval="10000">
@@ -33,6 +34,9 @@ export default function OurComponents(){
                                 </div>
                                 <div className="carousel-item">
                                     <img src="images/carousel01.png" className="d-block w-100" alt="Carousel03"/>
+                                </div>
+                                <div className="carousel-item">
+                                    <img src="images/carousel04.png" className="d-block w-100" alt="Carousel04"/>
                                 </div>
                             </div>
                         </div>

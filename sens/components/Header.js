@@ -1,6 +1,4 @@
 import { Image } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faSearch, faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 import NewRelease from "./NewRelease";
 
 export default function Header(){
@@ -11,10 +9,10 @@ export default function Header(){
                     <Logo/>
                     <ul className="nav justify-content-end">
                         <li className="nav-item">
-                            <a className="nav-link link-light" href="#"> <FontAwesomeIcon icon={faSearch}/> </a>
+                            <a className="nav-link link-light" href="#"> <i className="fas fa-search"></i> </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link link-light" href="#"> <FontAwesomeIcon icon={faShoppingCart}/> </a>
+                            <a className="nav-link link-light" href="#"> <i className="fas fa-shopping-cart"></i> </a>
                         </li>
                     </ul>
                 </div>
