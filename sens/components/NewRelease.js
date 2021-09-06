@@ -18,19 +18,19 @@ export default function NewRelease(){
                                 Sed dapibus, diam sed vulputate vulputate, nisl urna blandit nunc, nec pellentesque metus quam sed metus.</p>
                                 <div className="models my-2">
                                     <h5> Choose a model: </h5>
-                                    <button type="button" class="btn btn-outline-primary me-2"> Mini s </button>
-                                    <button type="button" class="btn btn-outline-primary"> Mini s- </button>
+                                    <button type="button" className="btn btn-outline-primary me-2"> Mini s </button>
+                                    <button type="button" className="btn btn-outline-primary"> Mini s- </button>
                                 </div>
                                 <div className="colors mb-2">
                                     <h5> Color: </h5>
-                                    <button type="button" class="btn btn-outline-light rounded me-2"> BLACK </button>
-                                    <button type="button" class="btn btn-outline-light rounded me-2"> WHITE </button>
+                                    <button type="button" className="btn btn-outline-light rounded me-2"> BLACK </button>
+                                    <button type="button" className="btn btn-outline-light rounded me-2"> WHITE </button>
                                 </div>
                                 <div className="price mb-2">
                                     <h6> Price: </h6>
-                                    <p class="fw-light">79.99 €</p>
+                                    <p className="fw-light">79.99 €</p>
                                 </div>
-                                <button type="button" class="btn btn-outline-light rounded fw-bold"> ADD TO CART </button>
+                                <button type="button" className="btn btn-outline-light rounded fw-bold"> ADD TO CART </button>
                         </div>
                     </div>
                 </div>

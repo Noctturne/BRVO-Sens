@@ -10,4 +10,6 @@ $theme-colors: (
 $font-family-sans-serif: 'Poppins', Helvetica, Arial, sans-serif !default;
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
+
+
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
